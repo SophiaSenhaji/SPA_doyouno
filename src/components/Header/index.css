@@ -1,0 +1,27 @@
+.Header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+}
+
+.Header > * {
+    display: flex;
+    width: 30%;
+}
+
+.Header__title {
+    justify-content: center;
+}
+
+.Header__right {
+    justify-content: flex-start;
+}
+
+.Header__left {
+    justify-content: flex-end;
+}
+
+.Header .Button, .Header a {
+  font-weight: bold;
+  cursor: pointer;
+}

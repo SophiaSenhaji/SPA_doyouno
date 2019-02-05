@@ -1,0 +1,39 @@
+.App {
+  display: flex;
+  width: 50%;
+  min-width: 200px;
+  margin: 64px auto
+}
+
+.App > div {
+  width: 100%;
+  padding: 32px;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+input, select, textarea {
+  display: block;
+  width: 100%;
+  margin: 0 auto 8px;
+  padding: 8px;
+  max-width: 300px;
+}
+
+button {
+  display: block;
+  margin: 0 auto;
+}
+
+* {
+  box-sizing: content-box;
+}
+
+.error {
+    padding: 8px;
+    text-align: center;
+    color: red;
+}

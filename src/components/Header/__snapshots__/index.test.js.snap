@@ -1,0 +1,83 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header component should render correctly 1`] = `
+<div
+  className="Header"
+>
+  <div>
+     
+  </div>
+  <div
+    className="Header__title"
+  >
+    SPA
+  </div>
+  <div>
+     
+  </div>
+</div>
+`;
+
+exports[`Header component should render correctly with withAdd === true 1`] = `
+<div
+  className="Header"
+>
+  <div>
+     
+  </div>
+  <div
+    className="Header__title"
+  >
+    SPA
+  </div>
+  <Link
+    className="Header__left"
+    replace={false}
+    to="/form"
+  >
+    +
+  </Link>
+</div>
+`;
+
+exports[`Header component should render correctly with withBack === true 1`] = `
+<div
+  className="Header"
+>
+  <Link
+    className="Header__right"
+    replace={false}
+    to="/"
+  >
+    &lt;-
+  </Link>
+  <div
+    className="Header__title"
+  >
+    SPA
+  </div>
+  <div>
+     
+  </div>
+</div>
+`;
+
+exports[`Header component should render correctly with withSearch === true 1`] = `
+<div
+  className="Header"
+>
+  <div
+    className="Header__right Button"
+  >
+    Search
+  </div>
+  <div
+    className="Header__title"
+  >
+    SPA
+  </div>
+  <div>
+     
+  </div>
+</div>
+`;

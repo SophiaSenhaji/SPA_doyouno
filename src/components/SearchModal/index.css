@@ -1,0 +1,21 @@
+.SearchModal {
+    display: flex;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    top:0;
+    left: 0;
+    background: rgba(0,0,0,.5);
+}
+
+.SearchModal__container {
+    background: white;
+    padding: 32px;
+}
+
+.SearchModal__button {
+    display: block;
+    margin: 16px auto;
+}

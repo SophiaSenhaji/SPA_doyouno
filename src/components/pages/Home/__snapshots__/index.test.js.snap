@@ -1,0 +1,133 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header component should render correctly 1`] = `
+<div
+  className="Home"
+>
+  <Header
+    onSearchClick={[Function]}
+    withAdd={true}
+    withSearch={true}
+  />
+  <Link
+    className="Animal"
+    key="id"
+    replace={false}
+    to="/animal/id"
+  >
+    <div
+      className="Animal__infos"
+    >
+      <div
+        className="Animal__species"
+      >
+        Cat
+      </div>
+      <div
+        className="Animal__receptionDate"
+      >
+        2019-2-5
+      </div>
+    </div>
+    <div
+      className="Animal__description"
+    >
+      description
+    </div>
+  </Link>
+  <Link
+    className="Animal"
+    key="id"
+    replace={false}
+    to="/animal/id"
+  >
+    <div
+      className="Animal__infos"
+    >
+      <div
+        className="Animal__species"
+      >
+        Dog
+      </div>
+      <div
+        className="Animal__receptionDate"
+      >
+        2019-2-5
+      </div>
+    </div>
+    <div
+      className="Animal__description"
+    >
+      description2
+    </div>
+  </Link>
+</div>
+`;
+
+exports[`Header component should render correctly with isSearchOpened === true 1`] = `
+<div
+  className="Home"
+>
+  <Header
+    onSearchClick={[Function]}
+    withAdd={true}
+    withSearch={true}
+  />
+  <Link
+    className="Animal"
+    key="id"
+    replace={false}
+    to="/animal/id"
+  >
+    <div
+      className="Animal__infos"
+    >
+      <div
+        className="Animal__species"
+      >
+        Cat
+      </div>
+      <div
+        className="Animal__receptionDate"
+      >
+        2019-2-5
+      </div>
+    </div>
+    <div
+      className="Animal__description"
+    >
+      description
+    </div>
+  </Link>
+  <Link
+    className="Animal"
+    key="id"
+    replace={false}
+    to="/animal/id"
+  >
+    <div
+      className="Animal__infos"
+    >
+      <div
+        className="Animal__species"
+      >
+        Dog
+      </div>
+      <div
+        className="Animal__receptionDate"
+      >
+        2019-2-5
+      </div>
+    </div>
+    <div
+      className="Animal__description"
+    >
+      description2
+    </div>
+  </Link>
+  <SearchModal
+    onClose={[Function]}
+    onFound={[Function]}
+  />
+</div>
+`;

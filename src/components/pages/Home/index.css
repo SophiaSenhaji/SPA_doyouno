@@ -1,0 +1,11 @@
+.Animal {
+    display: block;
+    border: 1px solid black;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+.Animal__infos {
+    display: flex;
+    justify-content: space-between;
+}

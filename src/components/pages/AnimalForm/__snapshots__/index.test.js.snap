@@ -1,0 +1,202 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AnimalForm component render method should render correctly 1`] = `
+<div
+  className="AnimalForm"
+>
+  <Header
+    withBack={true}
+  />
+  <input
+    onChange={[Function]}
+    placeholder="RFID number"
+    type="text"
+    value=""
+  />
+  <select
+    onChange={[Function]}
+    value="Cat"
+  >
+    <option>
+      Cat
+    </option>
+    <option>
+      Dog
+    </option>
+  </select>
+  <input
+    onChange={[Function]}
+    placeholder="Race"
+    type="text"
+    value=""
+  />
+  <textarea
+    onChange={[Function]}
+    placeholder="Description"
+    value=""
+  />
+  <input
+    onChange={[Function]}
+    placeholder="Weight"
+    type="number"
+    value=""
+  />
+  <input
+    onChange={[Function]}
+    placeholder="Height"
+    type="number"
+    value=""
+  />
+  <input
+    onChange={[Function]}
+    placeholder="Reception date (aaaa-mm-dd)"
+    type="text"
+    value="2019-2-5"
+  />
+  <input
+    onChange={[Function]}
+    placeholder="Birth date (aaaa-mm-dd)"
+    type="text"
+    value=""
+  />
+  <button
+    onClick={[Function]}
+  >
+    Add
+  </button>
+</div>
+`;
+
+exports[`AnimalForm component render method should render correctly with error 1`] = `
+<div
+  className="AnimalForm"
+>
+  <Header
+    withBack={true}
+  />
+  <input
+    onChange={[Function]}
+    placeholder="RFID number"
+    type="text"
+    value=""
+  />
+  <select
+    onChange={[Function]}
+    value="Cat"
+  >
+    <option>
+      Cat
+    </option>
+    <option>
+      Dog
+    </option>
+  </select>
+  <input
+    onChange={[Function]}
+    placeholder="Race"
+    type="text"
+    value=""
+  />
+  <textarea
+    onChange={[Function]}
+    placeholder="Description"
+    value=""
+  />
+  <input
+    onChange={[Function]}
+    placeholder="Weight"
+    type="number"
+    value=""
+  />
+  <input
+    onChange={[Function]}
+    placeholder="Height"
+    type="number"
+    value=""
+  />
+  <input
+    onChange={[Function]}
+    placeholder="Reception date (aaaa-mm-dd)"
+    type="text"
+    value="2019-2-5"
+  />
+  <input
+    onChange={[Function]}
+    placeholder="Birth date (aaaa-mm-dd)"
+    type="text"
+    value=""
+  />
+  <button
+    onClick={[Function]}
+  >
+    Add
+  </button>
+</div>
+`;
+
+exports[`AnimalForm component render method should render correctly with id 1`] = `
+<div
+  className="AnimalForm"
+>
+  <Header
+    withBack={true}
+  />
+  <input
+    onChange={[Function]}
+    placeholder="RFID number"
+    type="text"
+    value=""
+  />
+  <select
+    onChange={[Function]}
+    value="Cat"
+  >
+    <option>
+      Cat
+    </option>
+    <option>
+      Dog
+    </option>
+  </select>
+  <input
+    onChange={[Function]}
+    placeholder="Race"
+    type="text"
+    value=""
+  />
+  <textarea
+    onChange={[Function]}
+    placeholder="Description"
+    value=""
+  />
+  <input
+    onChange={[Function]}
+    placeholder="Weight"
+    type="number"
+    value=""
+  />
+  <input
+    onChange={[Function]}
+    placeholder="Height"
+    type="number"
+    value=""
+  />
+  <input
+    onChange={[Function]}
+    placeholder="Reception date (aaaa-mm-dd)"
+    type="text"
+    value="2019-2-5"
+  />
+  <input
+    onChange={[Function]}
+    placeholder="Birth date (aaaa-mm-dd)"
+    type="text"
+    value=""
+  />
+  <button
+    onClick={[Function]}
+  >
+    Add
+  </button>
+</div>
+`;
