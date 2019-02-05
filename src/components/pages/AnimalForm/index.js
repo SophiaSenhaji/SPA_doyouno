@@ -19,7 +19,6 @@ const defaultState = {
 class AnimalForm extends Component {
     constructor() {
         super();
-        const date = new Date();
 
         this.state = defaultState;
     }
@@ -34,7 +33,6 @@ class AnimalForm extends Component {
         const {
             rfidNumber,
             species,
-            race,
             height,
             weight,
             description,
@@ -63,8 +61,7 @@ class AnimalForm extends Component {
             weight,
             description,
             receptionDate,
-            birthDate,
-            id
+            birthDate
         } = this.state;
 
         const animal = {
@@ -106,6 +103,7 @@ class AnimalForm extends Component {
                 ...defaultState,
                 ...animal,
                 receptionDate: getDateString(animal.receptionDate),
+                birthDate: getDateString(animal.birthDate),
                 id: match.params.id
             });
         }
